@@ -1,0 +1,13 @@
+spring.datasource.hikari.maximum-pool-size=2
+
+
+spring.jackson.serialization.fail-on-empty-beans=false
+
+## PostgreSQL
+spring.datasource.url=DATABASE_URL
+spring.datasource.username=DATABASE_USERNAME
+spring.datasource.password=DATABASE_PASSWORD
+
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
